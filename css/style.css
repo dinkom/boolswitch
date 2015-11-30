@@ -1,0 +1,69 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: #555;
+}
+
+.content {
+	padding: 50px;
+}
+
+.bool {
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+	position: relative;
+	background: #eee;
+	width: 500px;
+}
+
+.switch {
+	border-radius: 100%;
+	border:1px solid #aaa;
+	background: #003300;
+	width: 60px;
+	height: 60px;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.switch:focus {
+	outline: none;
+}
+
+.switch.on {
+	background: #00ff00;
+	box-shadow: 0 0 10px #00ff00;
+}
+
+.light {
+	display: inline-block;
+	width: 220px;
+	height: 25px;
+	border-radius: 10px;
+	border: 1px solid #aaa;
+	position: absolute;
+	top: 42%;
+	right: 20px;
+	background: #fff;
+}
+
+.light.single-line {
+	top: 36%;
+}
+
+.light img {
+	border: none;
+	border-radius: 10px;
+}
+
+img.no-signal {
+	display: none;
+}
